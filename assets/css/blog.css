@@ -1,0 +1,73 @@
+:root {
+    --dark-one: #00193ae8;
+    --dark-two: #00193a;
+    --dark-text: #d6d6d6c4;
+    --light-one: blanchedalmond;
+    --light-two: rgb(224, 199, 163);
+    --light-text: #302a2ac4;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+}
+
+/*Dark Mode*/
+.dark {
+    background-color: var(--dark-one);
+    color: var(--dark-text);
+}
+.dark header {
+    background-color: var(--dark-two);
+}
+
+.dark ul a {
+    text-decoration: none;
+    color: var(--dark-text);
+}
+
+/*Light Mode*/
+.light {
+    background-color: var(--light-one);
+    color: var(--light-text);
+}
+.light header {
+    background-color: var(--light-two);
+}
+
+.light h1 {
+    color: white;
+}
+
+.light ul a {
+    text-decoration: none;
+    color: var(--light-text);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+
+.main-nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.main-nav li {
+    padding: 10px;
+}
+
+.card{
+    border: 1px solid rgba(220, 169, 98, 0.281);
+    border-radius: 3px;
+    margin: 20px;
+}

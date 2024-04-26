@@ -1,0 +1,115 @@
+:root {
+    --dark-one: #00193ae8;
+    --dark-two: #00193a;
+    --dark-text: #d6d6d6c4;
+    --light-one: blanchedalmond;
+    --light-two: rgb(224, 199, 163);
+    --light-text: #302a2ac4;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*Dark Mode*/
+.dark {
+    background-color: var(--dark-one);
+    background-image: url("../images/test-background-darkmode");
+    background-size: cover;
+    background-position: center;
+}
+
+.dark header {
+    background-color: var(--dark-two);
+
+}
+
+.dark h1 {
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: var(--dark-text);
+    color: black;
+}
+
+.dark label {
+    color: var(--dark-text);
+}
+
+.dark #submit-button a {
+    text-decoration: none;
+    color: var(--dark-text);
+}
+
+/*Light Mode*/
+.light {
+    background-color: var(--light-one);
+    color: white;
+    background-image: url("../images/test-background");
+    background-size: cover;
+    background-position: center;
+}
+.light header {
+    background-color: var(--light-two);
+}
+
+.light #submit-button a {
+    text-decoration: none;
+    color: var(--light-text);
+}
+
+header {
+    background-color: rgb(224, 199, 163);
+}
+
+.main-nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.main-nav li {
+    padding: 10px;
+}
+
+main{
+    /* background-image: url("../images/test-background");
+    background-size: cover;
+    background-position: center; */
+}
+
+h1 {
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px 30px 50px;
+}
+
+form {
+    color: var(--light-text);
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input{
+    display: flex;
+    border-radius: 3px;
+    border: 1px;
+}
+
+form textarea{
+    display: flex;
+    border-radius: 3px;
+    border: 1px;
+}
+
+.input-group{
+    padding: 5px;
+}
+
+#blog-content{
+    /* border-radius: 30%; */
+}
